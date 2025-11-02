@@ -1,0 +1,14 @@
+-r requirements.txt
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Linting and formatting
+flake8>=6.1.0
+black>=23.7.0
+mypy>=1.5.0
+
+# Security scanning
+bandit>=1.7.5
+safety>=2.3.5

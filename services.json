@@ -1,0 +1,288 @@
+{
+  "services": {
+    "AWS/S3": {
+      "error": "The specified bucket does not exist",
+      "cname": ["s3.amazonaws.com"]
+    },
+    "BitBucket": {
+      "error": "Repository not found",
+      "cname": ["bitbucket.io"]
+    },
+    "Github": {
+      "error": "There isn\\'t a Github Pages site here\\.|a Github Pages site here",
+      "cname": ["github.io", "github.com"]
+    },
+    "Shopify": {
+      "error": "Sorry\\, this (shop|store) is currently unavailable\\.",
+      "cname": ["myshopify.com"]
+    },
+    "Fastly": {
+      "error": "Fastly error\\: unknown domain\\:",
+      "cname": ["fastly.net"]
+    },
+    "Ghost": {
+      "error": "The thing you were looking for is no longer here\\, or never was",
+      "cname": ["ghost.io"]
+    },
+    "Heroku": {
+      "error": "no-such-app.html|<title>no such app</title>|herokucdn.com/error-pages/no-such-app.html|No such app",
+      "cname": ["herokuapp.com", "herokussl.com"]
+    },
+    "Pantheon": {
+      "error": "The gods are wise, but do not know of the site which you seek|404 error unknown site",
+      "cname": ["pantheonsite.io"]
+    },
+    "Tumblr": {
+      "error": "Whatever you were looking for doesn\\'t currently exist at this address",
+      "cname": ["tumblr.com"]
+    },
+    "Wordpress": {
+      "error": "Do you want to register",
+      "cname": ["wordpress.com"]
+    },
+    "TeamWork": {
+      "error": "Oops - We didn\\'t find your site.",
+      "cname": ["teamwork.com"]
+    },
+    "Helpjuice": {
+      "error": "We could not find what you\\'re looking for.",
+      "cname": ["helpjuice.com"]
+    },
+    "Helpscout": {
+      "error": "No settings were found for this company:",
+      "cname": ["helpscoutdocs.com"]
+    },
+    "Cargo": {
+      "error": "<title>404 &mdash; File not found</title>",
+      "cname": ["cargocollective.com"]
+    },
+    "Uservoice": {
+      "error": "This UserVoice subdomain is currently available",
+      "cname": ["uservoice.com"]
+    },
+    "Surge.sh": {
+      "error": "project not found",
+      "cname": ["surge.sh"]
+    },
+    "Intercom": {
+      "error": "This page is reserved for artistic dogs\\.|Uh oh\\. That page doesn\\'t exist</h1>",
+      "cname": ["intercom.io"]
+    },
+    "Webflow": {
+      "error": "<p class=\\\"description\\\">The page you are looking for doesn\\'t exist or has been moved.</p>|The page you are looking for doesn\\'t exist or has been moved",
+      "cname": ["webflow.io"]
+    },
+    "Kajabi": {
+      "error": "<h1>The page you were looking for doesn\\'t exist.</h1>",
+      "cname": ["kajabi.com"]
+    },
+    "Thinkific": {
+      "error": "You may have mistyped the address or the page may have moved.",
+      "cname": ["thinkific.com"]
+    },
+    "Tave": {
+      "error": "<h1>Error 404: Page Not Found</h1>",
+      "cname": ["tave.com"]
+    },
+    "Wishpond": {
+      "error": "<h1>https://www.wishpond.com/404?campaign=true",
+      "cname": ["wishpond.com"]
+    },
+    "Aftership": {
+      "error": "Oops.</h2><p class=\\\"text-muted text-tight\\\">The page you\\'re looking for doesn\\'t exist.",
+      "cname": ["aftership.com"]
+    },
+    "Aha": {
+      "error": "There is no portal here \\.\\.\\. sending you back to Aha!",
+      "cname": ["aha.io"]
+    },
+    "Tictail": {
+      "error": "to target URL: <a href=\\\"https://tictail.com|Start selling on Tictail.",
+      "cname": ["tictail.com"]
+    },
+    "Brightcove": {
+      "error": "<p class=\\\"bc-gallery-error-code\\\">Error Code: 404</p>",
+      "cname": ["brightcove.com", "bcvp0rtal.com"]
+    },
+    "Bigcartel": {
+      "error": "<h1>Oops! We couldn&#8217;t find that page.</h1>",
+      "cname": ["bigcartel.com"]
+    },
+    "ActiveCampaign": {
+      "error": "alt=\\\"LIGHTTPD - fly light.\\\"",
+      "cname": ["activehosted.com"]
+    },
+    "Campaignmonitor": {
+      "error": "Double check the URL or <a href=\\\"mailto:help@createsend.com|Trying to access your account",
+      "cname": ["createsend.com"]
+    },
+    "Acquia": {
+      "error": "The site you are looking for could not be found.|If you are an Acquia Cloud customer and expect to see your site at this address|Web Site Not Found",
+      "cname": ["acquia-sites.com"]
+    },
+    "Proposify": {
+      "error": "If you need immediate assistance, please contact <a href=\\\"mailto:support@proposify.biz",
+      "cname": ["proposify.biz"]
+    },
+    "Simplebooklet": {
+      "error": "We can\\'t find this <a href=\\\"https://simplebooklet.com",
+      "cname": ["simplebooklet.com"]
+    },
+    "GetResponse": {
+      "error": "With GetResponse Landing Pages, lead generation has never been easier",
+      "cname": ["getresponse.com"]
+    },
+    "Vend": {
+      "error": "Looks like you\\'ve traveled too far into cyberspace.",
+      "cname": ["vendhq.com"]
+    },
+    "Jetbrains": {
+      "error": "is not a registered InCloud YouTrack.",
+      "cname": ["myjetbrains.com"]
+    },
+    "Smartling": {
+      "error": "Domain is not configured",
+      "cname": ["smartling.com"]
+    },
+    "Pingdom": {
+      "error": "pingdom|Sorry, couldn\\'t find the status page",
+      "cname": ["stats.pingdom.com"]
+    },
+    "Tilda": {
+      "error": "Domain has been assigned|Please renew your subscription",
+      "cname": ["tilda.ws"]
+    },
+    "Surveygizmo": {
+      "error": "data-html-name",
+      "cname": ["surveygizmo.com", "alchemer.com"]
+    },
+    "Mashery": {
+      "error": "Unrecognized domain <strong>|Unrecognized domain",
+      "cname": ["mashery.com"]
+    },
+    "Divio": {
+      "error": "Application not responding",
+      "cname": ["divio-media.com"]
+    },
+    "Feedpress": {
+      "error": "The feed has not been found.",
+      "cname": ["redirect.feedpress.me"]
+    },
+    "Readme.io": {
+      "error": "Project doesnt exist... yet!",
+      "cname": ["readme.io"]
+    },
+    "Statuspage": {
+      "error": "You are being <a href=\\'https>",
+      "cname": ["statuspage.io"]
+    },
+    "Zendesk": {
+      "error": "Help Center Closed",
+      "cname": ["zendesk.com"]
+    },
+    "Worksites.net": {
+      "error": "Hello! Sorry, but the webs>",
+      "cname": ["worksites.net"]
+    },
+    "Agile CRM": {
+      "error": "this page is no longer available",
+      "cname": ["agilecrm.com"]
+    },
+    "Anima": {
+      "error": "try refreshing in a minute|this is your website and you've just created it",
+      "cname": ["animaapp.io"]
+    },
+    "Fly.io": {
+      "error": "404 Not Found",
+      "cname": ["fly.dev"]
+    },
+    "Gemfury": {
+      "error": "This page could not be found",
+      "cname": ["fury.io"]
+    },
+    "HatenaBlog": {
+      "error": "404 Blog is not found",
+      "cname": ["hatenablog.com"]
+    },
+    "Kinsta": {
+      "error": "No Site For Domain",
+      "cname": ["kinsta.com", "kinsta.cloud"]
+    },
+    "LaunchRock": {
+      "error": "It looks like you may have taken a wrong turn somewhere|worry...it happens to all of us",
+      "cname": ["launchrock.com"]
+    },
+    "Ngrok": {
+      "error": "ngrok.io not found",
+      "cname": ["ngrok.io"]
+    },
+    "SmartJobBoard": {
+      "error": "This job board website is either expired or its domain name is invalid",
+      "cname": ["smartjobboard.com"]
+    },
+    "Strikingly": {
+      "error": "page not found",
+      "cname": ["strikingly.com"]
+    },
+    "Uberflip": {
+      "error": "hub domain\\, The URL you\\'ve accessed does not provide a hub",
+      "cname": ["uberflip.com"]
+    },
+    "Unbounce": {
+      "error": "The requested URL was not found on this server",
+      "cname": ["unbounce.com"]
+    },
+    "Uptimerobot": {
+      "error": "page not found",
+      "cname": ["stats.uptimerobot.com"]
+    },
+    "Vercel": {
+      "error": "The deployment could not be found|404: NOT_FOUND",
+      "cname": ["vercel.app", "vercel-dns.com", "now.sh"]
+    },
+    "Netlify": {
+      "error": "Not Found - Request ID:|Page Not Found|404 - Page not found",
+      "cname": ["netlify.app", "netlify.com"]
+    },
+    "Railway": {
+      "error": "404 - Application Not Found|Railway - 404",
+      "cname": ["railway.app", "up.railway.app"]
+    },
+    "Render": {
+      "error": "404 - Not Found|The page you are looking for does not exist",
+      "cname": ["onrender.com"]
+    },
+    "Azure": {
+      "error": "404 Web Site not found|The resource you are looking for has been removed",
+      "cname": ["azurewebsites.net", "cloudapp.azure.com", "azure-api.net"]
+    },
+    "DigitalOcean": {
+      "error": "Domain not found|404 - Page not found",
+      "cname": ["ondigitalocean.app"]
+    },
+    "Cloudflare Pages": {
+      "error": "404 - Not found|The page you are looking for does not exist",
+      "cname": ["pages.dev"]
+    },
+    "GitLab Pages": {
+      "error": "The page you're looking for could not be found|404 - Page Not Found",
+      "cname": ["gitlab.io"]
+    },
+    "Firebase": {
+      "error": "The requested URL was not found on this server|404 Not Found",
+      "cname": ["firebaseapp.com", "web.app"]
+    },
+    "Squarespace": {
+      "error": "No Such Account|This domain is not connected to a website",
+      "cname": ["squarespace.com"]
+    },
+    "Wix": {
+      "error": "Error ConnectYourDomain occurred|This site is not published yet",
+      "cname": ["wixsite.com", "wix.com"]
+    },
+    "Supabase": {
+      "error": "404 - Not Found|Project not found",
+      "cname": ["supabase.co"]
+    }
+  }
+}
